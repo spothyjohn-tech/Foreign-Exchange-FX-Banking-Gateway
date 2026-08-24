@@ -1,0 +1,33 @@
+{"time":"2026-08-11T08:54:11.7928886+03:00","level":"INFO","msg":"Database successfully connected and pool configured!"}
+{"time":"2026-08-11T08:54:11.7928886+03:00","level":"INFO","msg":"Server start on port :8080"}
+{"time":"2026-08-11T08:54:45.8256284+03:00","level":"INFO","msg":"Gotten signal quit. Starting stop program","signal":"interrupt"}
+{"time":"2026-08-11T08:54:45.8256284+03:00","level":"INFO","msg":"Application has terminated successfully"}
+{"time":"2026-08-11T10:43:58.7182791+03:00","level":"INFO","msg":"Worker valutes succefully start","interval":"1h0m0s"}
+{"time":"2026-08-11T10:43:58.7182791+03:00","level":"INFO","msg":"Database successfully connected and pool configured!"}
+{"time":"2026-08-11T10:43:58.7182791+03:00","level":"INFO","msg":"Server start on port :8080"}
+{"time":"2026-08-11T10:43:59.1356813+03:00","level":"ERROR","msg":"worker_usecase: failed to background update %s/%s: %v\n","USD":"EUR","error":"failed to fetch rate from source: api_client: currency rate for EUR not found in provider response"}
+{"time":"2026-08-11T10:43:59.2634305+03:00","level":"ERROR","msg":"worker_usecase: failed to background update %s/%s: %v\n","USD":"USD","error":"failed to fetch rate from source: api_client: currency rate for USD not found in provider response"}
+{"time":"2026-08-11T10:43:59.4809992+03:00","level":"ERROR","msg":"worker_usecase: failed to background update %s/%s: %v\n","USD":"JPY","error":"failed to fetch rate from source: api_client: currency rate for JPY not found in provider response"}
+{"time":"2026-08-11T10:47:52.1116825+03:00","level":"INFO","msg":"Gotten signal quit. Starting stop program","signal":"interrupt"}
+{"time":"2026-08-11T10:47:52.1116825+03:00","level":"INFO","msg":"Application has terminated successfully"}
+{"time":"2026-08-11T10:50:30.3441553+03:00","level":"INFO","msg":"Worker valutes succefully start","interval":"1h0m0s"}
+{"time":"2026-08-11T10:50:30.3441553+03:00","level":"INFO","msg":"Database successfully connected and pool configured!"}
+{"time":"2026-08-11T10:50:30.3441553+03:00","level":"INFO","msg":"Server start on port :8080"}
+{"time":"2026-08-11T10:50:51.0701222+03:00","level":"INFO","msg":"Gotten signal quit. Starting stop program","signal":"interrupt"}
+{"time":"2026-08-11T10:50:51.0701222+03:00","level":"INFO","msg":"Application has terminated successfully"}
+{"time":"2026-08-11T10:51:17.1268617+03:00","level":"INFO","msg":"Worker valutes succefully start","interval":"1h0m0s"}
+{"time":"2026-08-11T10:51:17.1268617+03:00","level":"INFO","msg":"Database successfully connected and pool configured!"}
+{"time":"2026-08-11T10:51:17.1268617+03:00","level":"INFO","msg":"Server start on port :8080"}
+{"time":"2026-08-11T10:56:57.9721097+03:00","level":"INFO","msg":"Gotten signal quit. Starting stop program","signal":"interrupt"}
+{"time":"2026-08-11T10:56:57.9721097+03:00","level":"INFO","msg":"Application has terminated successfully"}
+{"time":"2026-08-24T13:48:49.0493939+03:00","level":"INFO","source":{"function":"main.main","file":"E:/programming/GoProjects/MVP_FX/cmd/app/main.go","line":110},"msg":"Database successfully connected and pool configured!"}
+{"time":"2026-08-24T13:48:49.0493939+03:00","level":"INFO","source":{"function":"main.main.func1","file":"E:/programming/GoProjects/MVP_FX/cmd/app/main.go","line":103},"msg":"Server start on port :8080"}
+{"time":"2026-08-24T13:48:49.0493939+03:00","level":"INFO","source":{"function":"fx-gateway/internal/infrastructure/currency.(*CurrencyWorker).Start.func1","file":"E:/programming/GoProjects/MVP_FX/internal/infrastructure/currency/worker_time.go","line":34},"msg":"Worker valutes succefully start","interval":"1h0m0s"}
+{"time":"2026-08-24T13:53:07.0184805+03:00","level":"INFO","source":{"function":"main.main","file":"E:/programming/GoProjects/MVP_FX/cmd/app/main.go","line":117},"msg":"Gotten signal quit. Starting stop program","signal":"interrupt"}
+{"time":"2026-08-24T13:53:07.0184805+03:00","level":"INFO","source":{"function":"main.main","file":"E:/programming/GoProjects/MVP_FX/cmd/app/main.go","line":124},"msg":"Application has terminated successfully"}
+{"time":"2026-08-24T13:58:21.0595104+03:00","level":"INFO","source":{"function":"main.main.func1","file":"E:/programming/GoProjects/MVP_FX/cmd/app/main.go","line":103},"msg":"Server start on port :8080"}
+{"time":"2026-08-24T13:58:21.0595104+03:00","level":"INFO","source":{"function":"main.main","file":"E:/programming/GoProjects/MVP_FX/cmd/app/main.go","line":110},"msg":"Database successfully connected and pool configured!"}
+{"time":"2026-08-24T13:58:21.0595104+03:00","level":"INFO","source":{"function":"fx-gateway/internal/infrastructure/currency.(*CurrencyWorker).Start.func1","file":"E:/programming/GoProjects/MVP_FX/internal/infrastructure/currency/worker_time.go","line":34},"msg":"Worker valutes succefully start","interval":"1h0m0s"}
+{"time":"2026-08-24T13:58:28.9365597+03:00","level":"INFO","source":{"function":"main.main","file":"E:/programming/GoProjects/MVP_FX/cmd/app/main.go","line":115},"msg":"Gotten signal quit. Starting stop program"}
+{"time":"2026-08-24T13:58:28.9365597+03:00","level":"INFO","source":{"function":"fx-gateway/internal/infrastructure/currency.(*CurrencyWorker).Start.func1","file":"E:/programming/GoProjects/MVP_FX/internal/infrastructure/currency/worker_time.go","line":52},"msg":"Worker received stop signal, shutting down gracefully..."}
+{"time":"2026-08-24T13:58:28.9365597+03:00","level":"INFO","source":{"function":"main.main","file":"E:/programming/GoProjects/MVP_FX/cmd/app/main.go","line":122},"msg":"Application has terminated successfully"}
